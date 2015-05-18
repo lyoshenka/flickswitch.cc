@@ -38,10 +38,10 @@
     </div>
     <div class="a-wrapper clearfix right">      <div id="main-navigation">
         <a class="blog " href="http://usetopscore.com/news">Blog</a>
-        <a href="http://www.flickswitch.cc/#services" class="Services ">Services</a>
-        <a href="http://www.flickswitch.cc/#projects" class="Projects ">Projects</a>
-        <a href="http://www.flickswitch.cc/#about-us" class="About-Us ">About Us</a>
-        <a href="http://www.flickswitch.cc/#contact-us" class="Contact-Us ">Contact Us</a>
+        <a href="#services" class="Services ">Services</a>
+        <a href="#projects" class="Projects ">Projects</a>
+        <a href="#about-us" class="About-Us ">About Us</a>
+        <a href="#contact-us" class="Contact-Us ">Contact Us</a>
       </div>
       <div class="a-content clearfix neutral">
         <h3 class="section services" id="services">Services</h3>
@@ -80,7 +80,7 @@
                           <li style="list-style: disc inside">Efficient, maintainable code</li>
                           <li style="list-style: disc inside">Considered, intuitive design</li>
                         </ul>
-                        <p>Want some proof with those claims? <a href="http://www.flickswitch.cc/#projects">Our projects</a>. </p>
+                        <p>Want some proof with those claims? <a href="#projects">Our projects</a>. </p>
                       </div>
                     </div>
                     <div class="puzzle-piece real second cur-second">
@@ -111,7 +111,7 @@
                         <p>We put a premium on flexibility and forethought in our work. While those traits sound expensive,
                           they've led us to develop systems that drastically reduce development time. Combined with an
                           incredibly talented staff, the result is <strong>projects done in minimal time and at minimal
-                            cost</strong>. <a href="http://www.flickswitch.cc/#contact-us">Tell us</a> a bit about your
+                            cost</strong>. <a href="#contact-us">Tell us</a> a bit about your
                           needs - you'll be surprised how quickly and affordably we can meet them.</p>
                       </div>
                     </div>
@@ -332,47 +332,20 @@
             <!-- START SLOT -->
             <div class="a-slot a-normal  aRawHTML clearfix" id="a-slot-1-contact-us-5">
               <div class="a-slot-content clearfix" id="a-slot-content-1-contact-us-5">
-                <p>Interested in our services? Want to drop us a note? <br>Fill out the form below or
-                  <a href="mailto:team@flickswitch.cc" class="highlight">email us directly</a>.</p>
-                <!--feedback-loading will be shown on form submission-->
-                <div style="display: none" id="feedback-sent">
-                  <div class="success flash">Your message has been sent. Messages are usually answered within one business day.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- START SLOT -->
-            <div class="a-slot a-normal  wfFeedback clearfix" id="a-slot-1-contact-us-4">
-              <div class="a-slot-content clearfix" id="a-slot-content-1-contact-us-4">
-                <form action="http://www.flickswitch.cc/feedback/submit" method="post" class="wf-feedback-form standard validate" novalidate="">
-                  <ul>
-                    <li class="form-row">
-                      <input data-placeholder="Name" class="required a-default-value" type="text" name="wf_feedback[name]" id="wf_feedback_name">
-                    </li>
-                    <li class="form-row">
-                      <input data-placeholder="Email" class="required email a-default-value" type="text" name="wf_feedback[email]" id="wf_feedback_email">
-                    </li>
-                    <li class="form-row"><label for="wf_feedback_message">Message</label>
-                      <div class="textareaWrapper">
-                        <textarea rows="4" cols="30" class="autosize required ignore" style="resize: none; overflow-y: hidden; position: absolute; top: 0px; left: -9999px; height: 120px; width: 479px; line-height: normal; text-decoration: none; letter-spacing: normal;" tabindex="-1"></textarea>
-                        <textarea rows="4" cols="30" class="autosize required" name="wf_feedback[message]" id="wf_feedback_message" style="resize: none; overflow-y: hidden; height: 120px;"></textarea>
-                      </div>
-                      <input type="hidden" name="wf_feedback[return_url]" value="http://www.flickswitch.cc/" id="wf_feedback_return_url">
-                    </li>
-                    <li class="submission">
-                      <input type="hidden" name="form_class" value="wfApostropheFeedbackForm">
-                      <a href="javascript:;" onclick="$(this).closest('form').submit();" class="a-btn icon a-submit big a-email a-show-busy">
-                        <span class="icon"></span>Send</a>
-                    </li>
-                  </ul>
-                </form>
+                <p>Interested in our services? Want to drop us a note?
+                  <a href="mailto:team@flickswitch.cc" class="highlight">Email us</a>.
+                </p>
               </div>
             </div>
           </div>
-        </div>      </div>    </div>    <div id="footer">
+        </div>
+      </div>
+    </div>
+    <div id="footer">
       <div id="footer-content">
         <div id="footer-logo-wrapper">
-          <a href="./FlickSwitch  FlickSwitch Development.html"><img src="./footer.png" alt="FlickSwitch" title="FlickSwitch"></a></div>
+          <a href="/"><img src="./footer.png" alt="FlickSwitch" title="FlickSwitch"></a>
+        </div>
         <div id="a-area-80-footer" class="a-area a-normal a-area-footer singleton aRawHTML clearfix">
           <div id="a-slots-80-footer" class="a-slots clearfix">
             <!-- START SLOT -->
@@ -380,12 +353,15 @@
               <div class="a-slot-content clearfix" id="a-slot-content-80-footer-1">
                 <div class="footer-slot">
                   <h4>Site Map</h4>
-                  <a href="http://www.flickswitch.cc/#services">Services</a> • <a href="http://www.flickswitch.cc/#projects">Projects</a>
-                  • <a href="http://www.flickswitch.cc/#about-us">About Us</a> • <a href="http://www.flickswitch.cc/#contact-us">Contact
-                  Us</a> • <a href="http://www.flickswitch.cc/blog">Blog</a></div>
+                  <a href="#services">Services</a> •
+                  <a href="#projects">Projects</a> •
+                  <a href="#about-us">About Us</a> •
+                  <a href="#contact-us">Contact Us</a> •
+                  <a href="http://usetopscore.com/blog">Blog</a>
+                </div>
                 <div class="footer-slot">
                   <h4>Contact Us</h4>
-                  <a href="mailto:team@flickswitch.cc">team@flickswitch.cc</a> &bull; 267.571.9320
+                  <a href="mailto:team@flickswitch.cc">team@flickswitch.cc</a> • 267.571.9320
                 </div>
               </div>
             </div>
