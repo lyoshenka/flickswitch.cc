@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="a-wrapper clearfix right">      <div id="main-navigation">
-        <a class="blog " href="http://usetopscore.com/news">Blog</a>
+        <a class="blog " href="https://grin.io">Blog</a>
         <a href="#services" class="Services ">Services</a>
         <a href="#projects" class="Projects ">Projects</a>
         <a href="#about-us" class="About-Us ">About Us</a>
@@ -374,17 +374,15 @@
     <script type="text/javascript" src="./jquery-ui.min.js"></script>
     <script type="text/javascript" src="./script.js"></script>
     <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-19874742-1"]);
-      _gaq.push(["_trackPageview"]);
-      (function ()
-      {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
+      var _paq = window._paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://piwik.grin.io/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '13']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
   </body>
